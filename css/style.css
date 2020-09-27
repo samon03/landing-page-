@@ -128,15 +128,81 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 35px;
+    color: #4a4a4a;
+}
+
+.my-service-content h5
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: #4a4a4a;
 }
 
 .my-service-content p
 {
     font-size: 14px;
+    color: #6e6e6e;
+}
+
+.my-service-col p
+{
     margin-top: 2rem;
     margin-bottom: 3rem;
     line-height: 1.7rem;
 }
 
+/* space after col  */
+.col-space      
+{
+    margin: 2em 0;
+}
 
+/* ======== fa fa Icon ======== */
 
+.fa::before {
+    color: transparent;
+    position: relative;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+.fa-joomla::before
+{
+    background-image: linear-gradient(to right, #fc60de, #b424e5);
+}
+
+.fa-desktop::before
+{
+    background-image: linear-gradient(to right,#57c0fe, #1776e5);
+}
+
+.fa-camera-retro::before
+{
+    background-image: linear-gradient(to right, #ffdd41, #ff8758);
+}
+
+.fa-video-camera::before
+{
+    background-image: linear-gradient(to right, #5df0b5, #2bb7b9);
+}
+
+#service
+{
+    position: relative;
+    padding-bottom: 12rem;
+}
+
+#service::after
+{
+    content: '';
+    clear: both;
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 22%;
+    transform: skewY(-6deg);
+    transform-origin: bottom right;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
