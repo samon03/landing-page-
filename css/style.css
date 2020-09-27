@@ -35,6 +35,11 @@ h1{
     
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /*  ====  button ==== */
 
@@ -117,6 +122,10 @@ h1{
 
 /* ======== Service ======== */
 
+#service
+{
+    padding-bottom: 6rem;
+}
 
 .my-service-col
 {
@@ -186,18 +195,68 @@ h1{
     background-image: linear-gradient(to right, #5df0b5, #2bb7b9);
 }
 
-#service
+
+/* ======== Story ========  */
+
+  .btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+    background-color: #fff;
+} 
+
+
+#story
 {
+    background-image: linear-gradient(to right, rgba(164, 120, 204, 0.72), rgba(96, 72, 255, 0.72)), url('../image/cover2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    /* padding-top: 4rem; */
+    padding-bottom: 6rem;
     position: relative;
-    padding-bottom: 12rem;
 }
 
-#service::after
+#story::before
 {
     content: '';
-    clear: both;
     position: absolute;
-    background-color: red;
+    background-color: #fff;
+    width: 100%;
+    height: 20%;
+    transform: skewY(-3deg);
+    transform-origin: top right;
+    top: -6rem;
+    right: 0;
+    left: 0;
+}
+
+.col
+{
+    padding-top: 22rem;
+}
+
+
+
+/* #land2
+{
+    padding-top: 8rem;
+    padding-bottom: 22rem;
+}
+
+.main-land2-content
+{
+    padding-left: 15rem;
+    color: #fff;
+}
+
+#land2::after
+{
+    content: '';
+    position: absolute;
+    background-color: #fff;
     width: 100%;
     height: 22%;
     transform: skewY(-6deg);
@@ -205,4 +264,4 @@ h1{
     bottom: 0;
     right: 0;
     left: 0;
-}
+} */
