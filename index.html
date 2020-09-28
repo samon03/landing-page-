@@ -12,9 +12,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">   -->
-			
-		
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">   -->	
 
 </head>
 <body>
@@ -31,8 +29,8 @@
 			      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 			      <a class="nav-link" href="#service">Service</a>
 			      <a class="nav-link" href="#portfolio">Portfolio</a>
-			      <a class="nav-link" href="#mystory">My Story</a>
-			      <a class="nav-link" href="#myskills">My Skills</a>
+			      <a class="nav-link" href="#story">My Story</a>
+			      <a class="nav-link" href="#skills">My Skills</a>
 			      <a class="nav-link" href="#reviews" aria-disabled="true">Reviews</a>
 				</div>		    
 		      </div>
@@ -148,7 +146,7 @@
 						<div class="card-body">
 							<div class="row">
 								<div class="col-md-1 mr-3">
-									<i class="fa fa-joomla fa-2x"></i>
+									<i class="fa fa-cubes fa-2x"></i>
 								</div>
 								<div class="col-md-10">
 									<h5>Web Development</h5>
@@ -241,6 +239,60 @@
 			</div>
 		</div>
 	</section>	
+
+	<section id="portfolio" class="mt-10">
+		<div class="container">
+			<div class="row story-content justify-content-center">
+				<div class="col text-center my-service-content" >
+					<h4>My Portfolio</h4>
+					<div class="space-between"></div>
+					<p>The portfolio is conveying quality and experience of my services. See my portfolio to understand how<br> 
+						qualifyed and experience I am.</p>	
+					<div class="row justify-content-center pt-5">
+						<div class="project-tab">
+							<nav>
+								<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+									<a class="nav-item nav-link active filter" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" data-rel="all">Web Design</a>
+									<a class="nav-item nav-link filter" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" data-rel="1">App Design</a>
+									<a class="nav-item nav-link filter" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" data-rel="2">Photography</a>
+									<a class="nav-item nav-link filter" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Videography</a>
+									<a class="nav-item nav-link filter" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Web Development</a>
+								</div>
+							</nav>
+						</div>
+
+						<div class="gallery" id="gallery">
+
+							<div class="mb-3 pics animation all 1">
+								<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+							</div>
+							
+							<div class="mb-3 pics animation all 2">
+								<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+							</div>
+							
+							<div class="mb-3 pics animation all 2">
+								<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+							</div>
+							
+							<div class="mb-3 pics animation all 1">
+								<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+							</div>
+
+							<div class="mb-3 pics animation all 1">
+								<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+							</div>
+							
+							<div class="mb-3 pics animation all 2">
+								<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+							</div>
+							
+						</div>   
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>				   
 	
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -253,7 +305,8 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="js/jquery.easypiechart.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.easypiechart.js"></script>
     <script>
         $(function() {
             $('.chart').easyPieChart({

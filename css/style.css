@@ -27,6 +27,13 @@ h1{
    font-size: 3rem;
 }
 
+h4
+{
+    font-weight: bold;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
 #logo
 {
     color: #a0d334;
@@ -175,7 +182,7 @@ h1{
     -webkit-background-clip: text;
   }
 
-.fa-joomla::before
+.fa-cubes::before
 {
     background-image: linear-gradient(to right, #fc60de, #b424e5);
 }
@@ -246,6 +253,13 @@ h1{
     font-size: 1.8rem;
 }
 
+#story h4
+{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 .space-between
 {
     margin: 1em 0;
@@ -267,14 +281,12 @@ h1{
 
 /* ======== Skills ======== */
 
-#skills h4
-{
-    font-weight: bold;
-    font-size: 24px;
-    color: #4a4a4a;
-}
-
 /* ======== Pie Chart ======== */
+
+#skills
+{
+    padding-bottom: 10rem;
+}
 
 .chart-text
 {
@@ -289,3 +301,87 @@ h1{
     font-weight: 600;
     color: #4a4a4a;
 }
+
+
+/* ======== Portfolio ======== */
+
+/* tab */
+.project-tab 
+{
+    padding-bottom: 2rem;
+} 
+
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #8cff1a;
+    background-color: transparent;
+    border-color: transparent transparent;
+    border-bottom: 3px solid !important;
+
+   /* font-size: 16px;
+    font-weight: bold;*/
+}
+
+#nav-tab
+{
+    border: none;
+}
+
+.project-tab .nav-link:hover {
+    border: none;
+}
+
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* tab ends */
+
+/* gallery */
+
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
