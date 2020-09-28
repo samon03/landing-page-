@@ -403,6 +403,31 @@ h4
     font-size: 1.2rem;
 }
 
+/* ========== Footer ========== */
+
+.page-footer
+{
+    background-image: linear-gradient(to right, rgba(164, 120, 204, 0.72), rgba(96, 72, 255, 0.72));
+    background-color: blue;
+    padding-top: 5em;
+    position: relative;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-footer a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7rem;
+}
+
+.page-footer p
+{
+    font-size: 16px;
+}
+
 
 @media (max-width: 450px) 
 {
