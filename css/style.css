@@ -3,7 +3,7 @@
 
 :root
 {
-    --main-acceent-color: ;
+    --main-acceent-color:  linear-gradient(to right, rgb(255,255,0), rgb(255,0,0));
     --section-title-color-dark: ;
     --body-color: ;
 }
@@ -273,3 +273,29 @@ h1{
     font-size: 24px;
     color: #4a4a4a;
 }
+
+/* ======== Pie Chart ======== */
+
+.circles-text
+{
+    position: absolute; 
+    top: 0px; 
+    left: -3px; 
+    text-align: center; 
+    width: 100%; 
+    font-size: 24px; 
+    height: 120px; 
+    line-height: 110px;
+}
+
+.valueStroke
+{
+    stroke: rgb(255,255,0);
+    color: linear-gradient(to left, rgb(255,255,0), rgb(255,0,0));
+}
+
+.maxValueStroke, .valueStroke
+{
+    /* width: 200px; */
+}
+
