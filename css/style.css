@@ -276,26 +276,16 @@ h1{
 
 /* ======== Pie Chart ======== */
 
-.circles-text
+.chart-text
 {
     position: absolute; 
     top: 0px; 
-    left: -3px; 
+    left: 0px; 
     text-align: center; 
     width: 100%; 
-    font-size: 24px; 
-    height: 120px; 
-    line-height: 110px;
+    font-size: 20px; 
+    height: 130px; 
+    line-height: 120px;
+    font-weight: 600;
+    color: #4a4a4a;
 }
-
-.valueStroke
-{
-    stroke: rgb(255,255,0);
-    color: linear-gradient(to left, rgb(255,255,0), rgb(255,0,0));
-}
-
-.maxValueStroke, .valueStroke
-{
-    /* width: 200px; */
-}
-
