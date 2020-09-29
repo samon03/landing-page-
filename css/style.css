@@ -475,7 +475,20 @@ h6
   color: white;
 }
 
+#about
+{
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
 
+
+@media (max-width: 800px) 
+{
+    #about
+    {
+        padding-left: 1rem;
+    }
+}
 
 @media (max-width: 450px) 
 {
