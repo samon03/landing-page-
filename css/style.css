@@ -437,15 +437,12 @@ h6
 
 /* ========== carousel ========== */
 
-.carousel {
-    padding-top: 4rem;
-  }
   
-  .carousel-cell {
+ .carousel-cell {
     width: 32%;
-    height: 400px;
+    height: auto;
     margin: 0.2rem;
-    padding: 0.2rem;
+    padding: 4rem 0.2rem;
   }
 
   .carousel-cell p
@@ -458,12 +455,14 @@ h6
     border-radius: 50%;
   }
 
-  .flickity-page-dots .dot 
+  .flickity-page-dots li.dot 
   {
     width: 50px;
     height: 3px;
     background: #8cff1a;
-    border-radius: 0;
+    border-radius: 30%;
+
+    /* display: none; */
   }
 
 .flickity-button-icon {
