@@ -430,29 +430,25 @@ h4
 
 /* ========== carousel ========== */
 
-.carousel {
+/* .carousel {
     background: #EEE;
-  }
+  } */
   
   .carousel-cell {
-    width: 28%;
-    height: 200px;
-    margin-right: 10px;
-  }
-  
-  .carousel-cell.is-selected {
-    background: #ED2;
+    width: 29%;
+    height: 400px;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
   
   /* cell number */
-  .carousel-cell:before {
+
+  /* .carousel-cell:before {
     display: block;
-    text-align: center;
- 
     line-height: 200px;
     font-size: 80px;
     color: white;
-  }
+  } */
 
 
 
