@@ -518,17 +518,18 @@ h6
     line-height: 16px;
 }
 
-#icon_circle
+.footer-icon i
 {
-    color: #fff;
+    width: 35px;
+    height: 35px;
     border: 1px solid #fff;
+    color: #ffffff;
+    font-size: 18px;
     border-radius: 50%;
-    /* width: 30px;
-    height: 30px; */
-    padding: 0.5rem;
+    padding-top: 7px;
+    transition: 0.5s;
+    text-align: center;
 }
-
-
 
 @media (max-width: 800px) 
 {
@@ -578,6 +579,12 @@ h6
         overflow: hidden;
     }
 
+    #footer-row .col-md-10
+    {
+        margin-left: 0.2rem;
+        margin-top: 0.5em;
+    }
+
 }
 
 @media (max-width: 450px) 
@@ -615,6 +622,11 @@ h6
     #service h3
     {
         font-size: 24px;
+    }
+
+    #info
+    {
+        margin-top: 0.5rem;
     }
 
 }
