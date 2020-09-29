@@ -505,18 +505,19 @@ h6
 #info p
 {
     font-size: 14px;
+    line-height: 16px;
 }
 
-#icon_change
-{
-    color: purple;
-}
-
-.fa-phone
+#icon_circle
 {
     color: #fff;
-    
+    border: 1px solid #fff;
+    border-radius: 50%;
+    /* width: 30px;
+    height: 30px; */
+    padding: 0.5rem;
 }
+
 
 
 @media (max-width: 800px) 
@@ -525,9 +526,14 @@ h6
     {
         padding-left: 1rem;
     }
+}
 
-    
-
+@media (max-width: 800px) 
+{
+    #row-space
+    {
+        margin: 1rem;
+    }
 }
 
 @media (max-width: 450px) 
@@ -545,6 +551,11 @@ h6
     .input-group
     {
         padding: 0 5%;
+    }
+
+    .carousel-cell .card, #row-space
+    {
+        margin-bottom: 1rem;
     }
 }
 
