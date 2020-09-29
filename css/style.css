@@ -3,9 +3,7 @@
 
 :root
 {
-    --main-acceent-color:  linear-gradient(to right, rgb(255,255,0), rgb(255,0,0));
-    --section-title-color-dark: ;
-    --body-color: ;
+    --main-acceent-color: #cbc4ff;
 }
 
 *{
@@ -640,5 +638,4 @@ h6
     }
 }
 
-/* cbc4ff */
 
