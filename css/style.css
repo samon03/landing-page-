@@ -138,6 +138,14 @@ h6
     padding-bottom: 7rem;
 }
 
+#service p
+{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
 #service .card-body
 {
     max-height: 280px;
