@@ -437,15 +437,19 @@ h6
 
 /* ========== carousel ========== */
 
-  
- .carousel-cell {
-    width: 32%;
-    height: auto;
-    margin: 0.2rem;
-    padding: 4rem 0.2rem;
-  }
+.carousel
+{
+    padding: 4rem 0;
+}
 
-  .carousel-cell p
+.carousel-cell {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.carousel-cell p
   {
       font-size: 13px;
   }
@@ -461,23 +465,15 @@ h6
     height: 3px;
     background: #8cff1a;
     border-radius: 30%;
-
-    /* display: none; */
   }
 
-.flickity-button-icon {
-    display: none;
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
 }
-
-  
-  /* cell number */
-
-  /* .carousel-cell:before {
-    display: block;
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-  } */
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
 
 
 
